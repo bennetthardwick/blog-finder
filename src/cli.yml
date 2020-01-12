@@ -1,0 +1,19 @@
+name: myapp
+version: "1.0"
+author: Kevin K. <kbknapp@gmail.com>
+about: Does awesome things
+args:
+  - url:
+      help: Sets the input file to use
+      required: true
+      multiple: true
+      index: 1
+  - deadend:
+      short: D
+      help: Specifiy domains that if reached won't be crawled
+      multiple: true
+  - depth:
+      long: depth
+      short: d
+      help: Specifiy domains that if reached won't be crawled
+      multiple: true
